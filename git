@@ -1,1 +1,26 @@
 
+git init                               // initialize the git
+git add .                              // Add the file from the working directory to staging(index).
+git commit -m "Initial Commit"         // add the file from staging(index) to repository.
+git log --oneline                      // lists all the logs for commits online.
+git status -s                          // What is the status of the file versions at the moment?
+git diff                               // Finding the differences between two commits
+
+git clone                              // Creates a local copy of a repository on your machine.
+git fetch                              // Download from remote to local (without integrating history)
+
+git pull                               // Download from remote to a local repository (with integrating history)
+git push                               // Upload local repository content to a remote repository (with integrating history)
+
+git stash                              // Temporarily stores your working directory's modifications.
+git branch                             // Creates a new branch of the repository.
+git remote                             // Remote repository shared between team members.
+git merge                              // Merging the approved branch with the master (keeping history).
+git rebase                             // Merging the branch with the master (not keeping history).
+
+git revert                             // Undoing committed changes to the repository.
+git reset                              // Undoing uncommitted changes to the staging(index).
+
+git branch -d                          // Delete branch.
+git branch -m <new_name>               // Rename branch
+git remote -v                          // List all remote repositories.
